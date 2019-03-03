@@ -1,0 +1,28 @@
+Command line:
+   DS4_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  33928
+
+Mon Feb 18 06:34:24 2019
+
+
+ Elaboration Time: 0.04 sec
+
+ Current Memory Usage: 198.574 Meg
+
+ Total Signals          : 19
+ Total Nets             : 175
+ Total Signal Drivers   : 11
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 14
+ Total Traceable Variables  : 24
+ Total Scalar Nets and Variables : 417
+
+ Total Simulation Time: 0.19 sec
+
+ Current Memory Usage: 276.173 Meg
+
+Mon Feb 18 06:35:20 2019
+

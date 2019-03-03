@@ -1,0 +1,19 @@
+[Inputs]
+z
+=op[5:0]=
+=func[5:0]=
+[Outputs]
+sext
+regrt
+jal
+wreg
+alium
+wmen
+shift
+m2reg
+=aluc[3:0]=
+=prsource[1:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel CTR
+

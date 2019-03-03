@@ -1,0 +1,2 @@
+vhdtdtfi -lib work /home/ise/cpu1/IM.v -lang verilog -prj cpu1 -o IM.spl -module IM -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family aspartan6 IM.spl /home/ise/cpu1/IM.sym 

@@ -1,0 +1,15 @@
+[Inputs]
+clk
+wreg
+reset
+=rna[4:0]=
+=rnb[4:0]=
+=wn[4:0]=
+=datain[31:0]=
+[Outputs]
+=qa[31:0]=
+=qb[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel REG
+

@@ -1,0 +1,13 @@
+[Inputs]
+clock
+reset
+mem_clk
+[Outputs]
+=inst[31:0]=
+=pc[31:0]=
+=aluout[31:0]=
+=memout[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel TOTAL
+

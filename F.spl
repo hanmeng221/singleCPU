@@ -1,0 +1,10 @@
+[Inputs]
+jal
+=reg_dest[4:0]=
+[Outputs]
+ctrl
+=reg_out[4:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel F
+

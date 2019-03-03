@@ -1,0 +1,2 @@
+vhdtdtfi -lib work /home/ise/cpu1/E.v -lang verilog -prj cpu1 -o E.spl -module E -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family aspartan6 E.spl /home/ise/cpu1/E.sym 

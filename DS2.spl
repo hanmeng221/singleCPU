@@ -1,0 +1,10 @@
+[Inputs]
+select
+=data1[31:0]=
+=data2[31:0]=
+[Outputs]
+=out[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel DS2
+

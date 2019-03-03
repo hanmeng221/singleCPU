@@ -1,0 +1,4 @@
+vhdtdtfi -lib work /home/ise/cpu1/CTR.v -lang verilog -prj cpu1 -o CTR.spl -module CTR -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family aspartan6 -w CTR.spl /home/ise/cpu1/CTR.sym 
+vhdtdtfi -lib work /home/ise/cpu1/CTR.v -lang verilog -prj cpu1 -o CTR.spl -module CTR -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family aspartan6 -w CTR.spl /home/ise/cpu1/CTR.sym 

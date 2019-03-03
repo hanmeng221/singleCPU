@@ -1,0 +1,28 @@
+Command line:
+   DS2_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  52592
+
+Mon Feb 18 06:24:30 2019
+
+
+ Elaboration Time: 0.04 sec
+
+ Current Memory Usage: 198.578 Meg
+
+ Total Signals          : 18
+ Total Nets             : 110
+ Total Signal Drivers   : 9
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 11
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 255
+
+ Total Simulation Time: 0.19 sec
+
+ Current Memory Usage: 276.177 Meg
+
+Mon Feb 18 06:25:37 2019
+

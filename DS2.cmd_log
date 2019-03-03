@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "/home/ise/cpu1/DS2.xst" -ofn "/home/ise/cpu1/DS2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa6slx4-csg225-3 DS2.ngc DS2.ngd  
+map -intstyle ise -p xa6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DS2_map.ncd DS2.ngd DS2.pcf 
+par -w -intstyle ise -ol high -mt off DS2_map.ncd DS2.ncd DS2.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DS2.twx DS2.ncd -o DS2.twr DS2.pcf 
+vhdtdtfi -lib work /home/ise/cpu1/DS2.v -lang verilog -prj cpu1 -o DS2.spl -module DS2 -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family aspartan6 -w DS2.spl /home/ise/cpu1/DS2.sym 

@@ -1,0 +1,12 @@
+[Inputs]
+=data1[31:0]=
+=data2[31:0]=
+=data3[31:0]=
+=data4[31:0]=
+=select[1:0]=
+[Outputs]
+=out[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel DS4
+

@@ -1,0 +1,147 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml DS2.twx DS2.ncd -o DS2.twr DS2.pcf
+
+Design file:              DS2.ncd
+Physical constraint file: DS2.pcf
+Device,package,speed:     xa6slx4,csg225,I,-3 (PRODUCTION 1.23 2016-11-22)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+data1<0>       |out<0>         |   11.503|
+data1<1>       |out<1>         |   11.573|
+data1<2>       |out<2>         |   10.513|
+data1<3>       |out<3>         |   10.758|
+data1<4>       |out<4>         |    9.578|
+data1<5>       |out<5>         |    9.680|
+data1<6>       |out<6>         |    8.938|
+data1<7>       |out<7>         |    8.450|
+data1<8>       |out<8>         |    8.359|
+data1<9>       |out<9>         |    8.526|
+data1<10>      |out<10>        |    8.493|
+data1<11>      |out<11>        |    8.269|
+data1<12>      |out<12>        |    8.207|
+data1<13>      |out<13>        |    7.943|
+data1<14>      |out<14>        |    8.059|
+data1<15>      |out<15>        |    7.760|
+data1<16>      |out<16>        |    7.659|
+data1<17>      |out<17>        |    8.346|
+data1<18>      |out<18>        |    8.381|
+data1<19>      |out<19>        |    8.255|
+data1<20>      |out<20>        |    8.552|
+data1<21>      |out<21>        |    8.366|
+data1<22>      |out<22>        |    8.340|
+data1<23>      |out<23>        |    8.351|
+data1<24>      |out<24>        |    9.803|
+data1<25>      |out<25>        |    9.182|
+data1<26>      |out<26>        |    9.577|
+data1<27>      |out<27>        |    9.728|
+data1<28>      |out<28>        |   10.341|
+data1<29>      |out<29>        |   10.060|
+data1<30>      |out<30>        |   11.773|
+data1<31>      |out<31>        |   10.962|
+data2<0>       |out<0>         |   11.828|
+data2<1>       |out<1>         |   11.148|
+data2<2>       |out<2>         |   11.071|
+data2<3>       |out<3>         |   11.334|
+data2<4>       |out<4>         |   10.655|
+data2<5>       |out<5>         |   10.652|
+data2<6>       |out<6>         |   10.108|
+data2<7>       |out<7>         |    9.795|
+data2<8>       |out<8>         |    9.164|
+data2<9>       |out<9>         |    9.166|
+data2<10>      |out<10>        |    9.532|
+data2<11>      |out<11>        |    9.937|
+data2<12>      |out<12>        |    9.681|
+data2<13>      |out<13>        |    9.281|
+data2<14>      |out<14>        |    9.680|
+data2<15>      |out<15>        |    9.468|
+data2<16>      |out<16>        |    9.164|
+data2<17>      |out<17>        |    9.934|
+data2<18>      |out<18>        |    9.051|
+data2<19>      |out<19>        |    9.561|
+data2<20>      |out<20>        |    9.534|
+data2<21>      |out<21>        |   10.038|
+data2<22>      |out<22>        |    9.450|
+data2<23>      |out<23>        |    9.729|
+data2<24>      |out<24>        |    9.737|
+data2<25>      |out<25>        |   10.012|
+data2<26>      |out<26>        |    9.830|
+data2<27>      |out<27>        |   10.064|
+data2<28>      |out<28>        |   10.325|
+data2<29>      |out<29>        |   10.699|
+data2<30>      |out<30>        |   11.808|
+data2<31>      |out<31>        |   11.454|
+select         |out<0>         |   11.659|
+select         |out<1>         |   11.874|
+select         |out<2>         |   11.040|
+select         |out<3>         |   11.212|
+select         |out<4>         |   11.008|
+select         |out<5>         |   10.885|
+select         |out<6>         |   10.216|
+select         |out<7>         |   10.164|
+select         |out<8>         |   10.049|
+select         |out<9>         |   10.580|
+select         |out<10>        |   10.394|
+select         |out<11>        |   10.387|
+select         |out<12>        |   10.273|
+select         |out<13>        |   10.442|
+select         |out<14>        |   10.476|
+select         |out<15>        |    9.736|
+select         |out<16>        |    9.628|
+select         |out<17>        |   10.443|
+select         |out<18>        |    9.924|
+select         |out<19>        |   10.079|
+select         |out<20>        |   10.337|
+select         |out<21>        |   10.305|
+select         |out<22>        |    9.892|
+select         |out<23>        |   10.201|
+select         |out<24>        |   10.293|
+select         |out<25>        |   10.082|
+select         |out<26>        |   10.252|
+select         |out<27>        |   10.616|
+select         |out<28>        |   10.715|
+select         |out<29>        |   10.350|
+select         |out<30>        |   11.571|
+select         |out<31>        |   11.543|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Feb 18 06:17:31 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 375 MB
+
+
+

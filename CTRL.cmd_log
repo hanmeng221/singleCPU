@@ -1,0 +1,2 @@
+vhdtdtfi -lib work /home/ise/cpu1/CTRL.v -lang verilog -prj cpu1 -o CTRL.spl -module CTRL -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family aspartan6 -w CTRL.spl /home/ise/cpu1/CTRL.sym 

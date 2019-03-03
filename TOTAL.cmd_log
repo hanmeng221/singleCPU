@@ -1,0 +1,59 @@
+vhdtdtfi -lib work /home/ise/cpu1/TOTAL.v -lang verilog -prj cpu1 -o TOTAL.spl -module TOTAL -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family aspartan6 -w TOTAL.spl /home/ise/cpu1/TOTAL.sym 
+xst -intstyle ise -ifn "/home/ise/cpu1/TOTAL.xst" -ofn "/home/ise/cpu1/TOTAL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa6slx4-csg225-3 TOTAL.ngc TOTAL.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOTAL.ucf -p xa6slx4-csg225-3 TOTAL.ngc TOTAL.ngd  
+map -intstyle ise -p xa6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TOTAL_map.ncd TOTAL.ngd TOTAL.pcf 
+map -intstyle ise -p xa6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TOTAL_map.ncd TOTAL.ngd TOTAL.pcf 
+xst -intstyle ise -ifn "/home/ise/cpu1/TOTAL.xst" -ofn "/home/ise/cpu1/TOTAL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOTAL.ucf -p xa6slx4-csg225-3 TOTAL.ngc TOTAL.ngd  
+map -intstyle ise -p xa6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TOTAL_map.ncd TOTAL.ngd TOTAL.pcf 
+par -w -intstyle ise -ol high -mt off TOTAL_map.ncd TOTAL.ncd TOTAL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TOTAL.twx TOTAL.ncd -o TOTAL.twr TOTAL.pcf -ucf TOTAL.ucf 
+xst -intstyle ise -ifn "/home/ise/cpu1/TOTAL.xst" -ofn "/home/ise/cpu1/TOTAL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOTAL.ucf -p xa6slx4-csg225-3 TOTAL.ngc TOTAL.ngd  
+map -intstyle ise -p xa6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TOTAL_map.ncd TOTAL.ngd TOTAL.pcf 
+par -w -intstyle ise -ol high -mt off TOTAL_map.ncd TOTAL.ncd TOTAL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TOTAL.twx TOTAL.ncd -o TOTAL.twr TOTAL.pcf -ucf TOTAL.ucf 
+xst -intstyle ise -ifn "/home/ise/cpu1/TOTAL.xst" -ofn "/home/ise/cpu1/TOTAL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOTAL.ucf -p xa6slx4-csg225-3 TOTAL.ngc TOTAL.ngd  
+map -intstyle ise -p xa6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TOTAL_map.ncd TOTAL.ngd TOTAL.pcf 
+par -w -intstyle ise -ol high -mt off TOTAL_map.ncd TOTAL.ncd TOTAL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TOTAL.twx TOTAL.ncd -o TOTAL.twr TOTAL.pcf -ucf TOTAL.ucf 
+xst -intstyle ise -ifn "/home/ise/cpu1/TOTAL.xst" -ofn "/home/ise/cpu1/TOTAL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOTAL.ucf -p xa6slx4-csg225-3 TOTAL.ngc TOTAL.ngd  
+map -intstyle ise -p xa6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TOTAL_map.ncd TOTAL.ngd TOTAL.pcf 
+map -intstyle ise -p xa6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TOTAL_map.ncd TOTAL.ngd TOTAL.pcf 
+xst -intstyle ise -ifn "/home/ise/cpu1/TOTAL.xst" -ofn "/home/ise/cpu1/TOTAL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOTAL.ucf -p xa6slx4-csg225-3 TOTAL.ngc TOTAL.ngd  
+map -intstyle ise -p xa6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TOTAL_map.ncd TOTAL.ngd TOTAL.pcf 
+xst -intstyle ise -ifn "/home/ise/cpu1/TOTAL.xst" -ofn "/home/ise/cpu1/TOTAL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOTAL.ucf -p xa6slx4-csg225-3 TOTAL.ngc TOTAL.ngd  
+map -intstyle ise -p xa6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TOTAL_map.ncd TOTAL.ngd TOTAL.pcf 
+par -w -intstyle ise -ol high -mt off TOTAL_map.ncd TOTAL.ncd TOTAL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TOTAL.twx TOTAL.ncd -o TOTAL.twr TOTAL.pcf -ucf TOTAL.ucf 
+xst -intstyle ise -ifn "/home/ise/cpu1/TOTAL.xst" -ofn "/home/ise/cpu1/TOTAL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOTAL.ucf -p xa6slx4-csg225-3 TOTAL.ngc TOTAL.ngd  
+map -intstyle ise -p xa6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TOTAL_map.ncd TOTAL.ngd TOTAL.pcf 
+par -w -intstyle ise -ol high -mt off TOTAL_map.ncd TOTAL.ncd TOTAL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TOTAL.twx TOTAL.ncd -o TOTAL.twr TOTAL.pcf -ucf TOTAL.ucf 
+xst -intstyle ise -ifn "/home/ise/cpu1/TOTAL.xst" -ofn "/home/ise/cpu1/TOTAL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOTAL.ucf -p xa6slx4-csg225-3 TOTAL.ngc TOTAL.ngd  
+map -intstyle ise -p xa6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TOTAL_map.ncd TOTAL.ngd TOTAL.pcf 
+par -w -intstyle ise -ol high -mt off TOTAL_map.ncd TOTAL.ncd TOTAL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TOTAL.twx TOTAL.ncd -o TOTAL.twr TOTAL.pcf -ucf TOTAL.ucf 
+xst -intstyle ise -ifn "/home/ise/cpu1/TOTAL.xst" -ofn "/home/ise/cpu1/TOTAL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOTAL.ucf -p xa6slx4-csg225-3 TOTAL.ngc TOTAL.ngd  
+map -intstyle ise -p xa6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TOTAL_map.ncd TOTAL.ngd TOTAL.pcf 
+par -w -intstyle ise -ol high -mt off TOTAL_map.ncd TOTAL.ncd TOTAL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TOTAL.twx TOTAL.ncd -o TOTAL.twr TOTAL.pcf -ucf TOTAL.ucf 
+xst -intstyle ise -ifn "/home/ise/cpu1/TOTAL.xst" -ofn "/home/ise/cpu1/TOTAL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOTAL.ucf -p xa6slx4-csg225-3 TOTAL.ngc TOTAL.ngd  
+map -intstyle ise -p xa6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TOTAL_map.ncd TOTAL.ngd TOTAL.pcf 
+par -w -intstyle ise -ol high -mt off TOTAL_map.ncd TOTAL.ncd TOTAL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TOTAL.twx TOTAL.ncd -o TOTAL.twr TOTAL.pcf -ucf TOTAL.ucf 
+xst -intstyle ise -ifn "/home/ise/cpu1/TOTAL.xst" -ofn "/home/ise/cpu1/TOTAL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOTAL.ucf -p xa6slx4-csg225-3 TOTAL.ngc TOTAL.ngd  
+map -intstyle ise -p xa6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TOTAL_map.ncd TOTAL.ngd TOTAL.pcf 
+par -w -intstyle ise -ol high -mt off TOTAL_map.ncd TOTAL.ncd TOTAL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TOTAL.twx TOTAL.ncd -o TOTAL.twr TOTAL.pcf -ucf TOTAL.ucf 
